@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: white; 
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+}
+h1{
+  color: #a79686;
+  margin:0; 
+}
+p{
+  color: #435153;
+}
+.btn {
+  border: none;
+  border-radius: 8px;
+  background-color: #e1cab2;
+  padding: 10px 25px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+  transition-duration: 0.4s;
+  font-family: 'Lato', sans-serif;
+}
+.share:hover {
+  color: #000000;
+  background-color: #a79686;
+}
+.account:hover {
+  color: #000000; 
+  background-color:#a79686;
+}
+
+#qr-reader {
+  margin: auto;
+  width: 80%;
+  padding: 10px;
+  border:black; 
+}
+
+a {
+  display:none; 
+}
+
+button {
+  border: none;
+  border-radius: 8px;
+  background-color: #e1cab2;
+  padding: 10px 25px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+  transition-duration: 0.4s;
+  font-family: 'Lato', sans-serif;
+  color:black; 
+}
+button:hover {
+  color: #000000; 
+  background-color:#a79686;
+}
+table, th, td {
+  border:1px solid white;
+  margin: auto;
+  padding: 0px; 
+  width: 600px;
+  height: 30%;
+}
+
+img{
+  visibility: hidden;
+}
+
+#qr-result{
+  background-color: #f3f3f1; 
+  border-style: black; 
+  margin: auto;
+  padding: 10px;
+  display: inline-block;
+  visibility: hidden; 
+}
+
+#share-button{
+  visibility:hidden; 
+}
+
+#add-to-acc-button{
+  visibility:hidden; 
+}
+
+.logo {
+  visibility:visible; 
+  margin:0;
+}
